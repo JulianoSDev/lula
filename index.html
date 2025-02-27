@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sus</h1>
+        <div class="diagnostico">
+            <label for="sintomas">Escolha os sintomas:</label>
+            <select id="sintomas">
+                <option disabled selected>Selecione</option>
+                <option value="febre">Febre</option>
+                <option value="tosse">Tosse</option>
+                <option value="dor_cabeca">Dor de Cabeça</option>
+                <option value="cansaco">Cansaço</option>
+                <option value="Preguiça">Preguiça</option>
+            </select>
+            <button id="btn-diagnosticar">Diagnosticar</button>
+        </div>
+        <p id="resultado"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
